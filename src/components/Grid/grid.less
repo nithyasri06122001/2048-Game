@@ -1,0 +1,17 @@
+@import "../../styles/index.less";
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  background-image:linear-gradient(to right,rgba(0, 0, 0, 0.712),rgba(0, 0, 0, 0.452));
+  border: @pixel-size solid rgba(241, 55, 55, 0.527);
+  border-radius: @pixel-size * 3;
+
+  &-cell {
+    width: @pixel-size * 12.5;
+    height: @pixel-size * 12.5;
+    margin: @pixel-size * 1;
+    border-radius: @pixel-size * 5;
+    background:rgb(243, 130, 130);
+  }
+}

@@ -1,0 +1,35 @@
+@import "./styles/index.less";
+// @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Roboto:wght@300&display=swap');
+*{
+  font-family: 'Baloo Thambi 2', cursive;
+font-family: 'Roboto', sans-serif;
+}
+.App {
+  max-width: @pixel-size * 60;
+  margin: @pixel-size * 0 auto;
+  font-family: 'Roboto', sans-serif;
+
+  .header {
+    display: flex;
+    width: 100%;
+
+    > div {
+      flex: 1;
+    }
+
+    .button {
+      float: right;
+      margin: @pixel-size * 3.25 @pixel-size * 0;
+    }
+  }
+
+  .footer {
+    margin: @pixel-size * 3 @pixel-size * 0;
+    font-weight: bold;
+    text-align: center;
+  }
+  h1{
+    font-size: 25px;
+  }
+}
